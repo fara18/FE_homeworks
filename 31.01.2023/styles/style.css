@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Saudagar';
+    src: url(fonts/Saudagar.ttf);
+}
+@font-face {
+    font-family: 'anur' ;
+    src: url(fonts/Anurati-Regular.otf);
+}
+
+body {
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: linear-gradient(to right, #2a3139, #87919b);
+}
+
+
+.block {
+    background-color: #c4cbd5;
+    padding-bottom: 20px;
+    border: 1px solid #87919b;
+    border-radius: 30px;
+
+}
+
+.block p,
+h1 {
+    color: white;
+    stroke: white;
+
+}
+
+.block p {
+    font-family: 'anur';
+    border: 10px solid#34495E;
+    background-color: #34495E;
+    border-radius: 20px;
+
+    padding: 21px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.block h1 {
+    font-family: 'Saudagar';
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
