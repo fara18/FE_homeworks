@@ -1,0 +1,107 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* =======parent container======= */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* =======child container======= */
+.container-sign-up-box {
+  width: 420px;
+  height: 420px;
+  box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08),
+    0px 20px 32px rgba(96, 97, 112, 0.24);
+  border-radius: 20px;
+  background: white;
+}
+/* =======Register======= */
+.container-sign-up-box h1 {
+  font-size: 28px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  position: relative;
+  top: 40px;
+  left: 32px;
+}
+/* =======Email & Password======= */
+form .email-password {
+    width: 356px;
+    height: 48px;
+    background: white;
+    border: 1px solid #7b8e98;
+    border-radius: 12px;
+    position: relative;
+    top: 60px;
+    left: 32px;
+    transition: all 0.2s linear;
+    
+  }
+  .email-password:hover{
+    border:1px solid #fdcb00;
+  }
+  form .email-password:not(:last-child) {
+    margin-bottom: 8px;
+  }
+form input {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #7b8e98;
+  margin: 14px 16px;
+}
+
+
+
+/*  =======Rules======= */
+form .rules {
+  color: #7b8e98;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  width: 356px;
+  height: 42px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+} 
+
+form .register{
+    border: 1px solid #fdcb00; 
+    border-radius: 55px;
+    width: 356px;
+    height: 48px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fdcb00;
+    color: #1A1A1A;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+form .log-in{
+    border: 1px solid #CFD8DC; 
+    border-radius: 55px;
+    width: 356px;
+    height: 48px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    color: #1A1A1A;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
